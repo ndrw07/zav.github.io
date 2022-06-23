@@ -1,0 +1,312 @@
+html {
+   scroll-behavior: smooth;
+}
+section {
+    height: 100vh;
+    max-width: none;
+    width: 100%;
+    display: table;
+    margin: 0;
+}
+h1 {
+    font-size: 12vh;
+}
+h2, h3, h4 {
+    font-size: 10vh;
+}
+p {
+    font-size: 5vh;
+}
+ol {
+    font-size: 5vh;
+}       
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+@font-face {
+    font-family: 'Courier New';
+    src: url(./Courier/cour.tff)
+}
+.debilnizav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.stred {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seznam {
+    list-style: none
+}
+#buttonstats {
+    background-color: #1cabb2;
+    border: 5px solid white;
+    border-radius: 20px;
+    color: white;
+    padding: 30px 160px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 7vh;
+}
+#sexe1 {
+    background-image: url(./zavback1.png);
+}
+#sexe2 {
+    background-image: url(./zavback2.png);
+}
+#sexe3 {
+    background-image: url(./zavback1.png);
+}
+#sexe4 {
+    background-image: url(./zavback2.png);
+}
+#sexe5 {
+    background-image: url(./zavback1.png);
+}
+.scroll-down {
+    height: 50px;
+    width: 30px;
+    border: 2px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.scroll-down::before, .scroll-down::after {
+    content: '';
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+}
+.scroll-down::after {
+    top: 40%;
+}
+.scroll-down2 {
+    height: 50px;
+    width: 30px;
+    border: 2px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: -98%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.scroll-down2::before, .scroll-down2::after {
+    content: '';
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+}
+.scroll-down2::after {
+    top: 40%;
+}
+.scroll-down3 {
+    height: 50px;
+    width: 30px;
+    border: 2px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: -198%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.scroll-down3::before, .scroll-down3::after {
+    content: '';
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+}
+.scroll-down3::after {
+    top: 40%;
+}
+.scroll-down4 {
+    height: 50px;
+    width: 30px;
+    border: 2px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: -298%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.scroll-down4::before, .scroll-down4::after {
+    content: '';
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+}
+.scroll-down4::after {
+    top: 40%;
+}
+#welcome {
+    background-color: #1cabb2;
+    max-width: 30vh;
+    width: 100%;
+    padding: 10px;
+    border: 5px solid white;
+    border-radius: 20px;
+    height: 8vh;
+    margin-left: 42%;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#buttontry {
+    background-color: #1cabb2;
+    border: 5px solid white;
+    border-radius: 20px;
+    color: black;
+    padding: 30px 160px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 17vh;
+}
+#prvni {
+    background-color: white;
+    max-width: 700px;
+    width: 100%;
+    padding: 10px;
+    border: 5px solid #1cabb2;
+    border-radius: 15px;
+    margin-top: 25vh;
+    margin-left: 31.5%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nadpis {
+    background-color: #1cabb2;
+    max-width: 40vh;
+    width: 100%;
+    padding: 10px;
+    border: 5px solid white;
+    border-radius: 15px;
+    height: 8vh;
+    margin-top: 25vh;
+    margin-left: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nadpis2 {
+    background-color: white;
+    max-width: 100vh;
+    width: 100%;
+    padding: 10px;
+    border: 5px solid #1cabb2;
+    border-radius: 15px;
+    height: 8vh;
+    margin-top: 25vh;
+    margin-left: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nadpis3 {
+    background-color: #1cabb2;
+    max-width: 100vh;
+    width: 100%;
+    padding: 10px;
+    border: 5px solid white;
+    border-radius: 15px;
+    height: 8vh;
+    margin-top: 25vh;
+    margin-left: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#paragraf1 {
+    background-color: #1cabb2;
+    max-width: 150vh;
+    width: 100%;
+    padding: 10px;
+    border: 5px solid white;
+    border-radius: 10px;
+    height: 22vh;
+    margin-top: 2vh;
+    margin-left: 22vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#paragraf2 {
+    background-color: white;
+    max-width: 150vh;
+    width: 100%;
+    padding: 10px;
+    border: 5px solid #1cabb2;
+    border-radius: 15px;
+    height: 38vh;
+    margin-top: 2vh;
+    margin-left: 23vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#paragraf3 {
+    background-color: #1cabb2;
+    max-width: 150vh;
+    width: 100%;
+    padding: 10px;
+    border: 5px solid white;
+    border-radius: 15px;
+    height: 32vh;
+    margin-top: 2vh;
+    margin-left: 12%;
+    align-items: center;
+    justify-content: center;  
+}
+#statistiky {
+    background-color: white;
+    max-width: 40vh;
+    width: 100%;
+    padding: 10px;
+    margin-left: 36%;
+    margin-bottom: 10%;
+    border: 5px solid #1cabb2;
+    border-radius: 15px;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 5vh; 
+}
+#fotkapejska {
+    margin-left: 70%;
+}
